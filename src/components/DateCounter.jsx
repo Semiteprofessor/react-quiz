@@ -1,7 +1,7 @@
 import React, { useReducer, useState } from "react";
 
 const initialState = { count: 0, step: 1 };
-const reducer = (state = initialState, action) => {
+const reducer = (state, action) => {
   console.log(state, action);
 
   // return { count: 0, step: 1 };
@@ -26,7 +26,6 @@ const reducer = (state = initialState, action) => {
 };
 
 const DateCounter = () => {
-
   const [state, dispatch] = useReducer(reducer, initialState);
   const { count, step } = state;
 
@@ -47,18 +46,26 @@ const DateCounter = () => {
   };
 
   const handleReset = () => {
-    dispatch({ type: "reset", payload: 0 });
+    dispatch({ type: "reset" });
     // setCount(0);
   };
   return (
     <div>
-      <input type="range" name="" id="" value={step} />
+      <input
+        type="range"
+        min={0}
+        max={10}
+        value={step}
+        onChange={handleSetStep}
+      />
+      <span>{step}</span>
       <div>
         <button onClick={handleDecrement}>-</button>
-        <input type="text" value={Math.abs(count)} />
+        <input value={Math.abs(count)} onChange={handleSetCount} />
         <button onClick={handleIncrement}>+</button>
       </div>
-      <p>{new Date().toLocaleDateString}</p>
+
+      <p>{date.toDateString()}</p>
 
       <button onClick={handleReset}>Reset</button>
     </div>
