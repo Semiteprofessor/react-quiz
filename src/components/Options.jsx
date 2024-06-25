@@ -13,7 +13,7 @@ const Options = ({ question, dispatch, answer }) => {
                 : ""
             }`}
             key={option}
-            disabled={answer !== null}
+            disabled={hasAnswered}
             onClick={() => dispatch({ type: "newAnswer", payload: index })}
           >
             {option}

@@ -9,19 +9,19 @@
         "A database management tool"
       ],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "Who developed React?",
       "options": ["Google", "Facebook", "Twitter", "Microsoft"],
       "correctAnswer": "Facebook",
-      "point": 10
+      "points": 10
     },
     {
       "question": "Which of the following is used to pass data to a component from outside?",
       "options": ["props", "state", "setState", "render"],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "Which method is used to create a component in React?",
@@ -32,7 +32,7 @@
         "React.createElement"
       ],
       "correctAnswer": 3,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is JSX?",
@@ -43,7 +43,7 @@
         "A React component"
       ],
       "correctAnswer": 2,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is the use of `setState` in React?",
@@ -54,7 +54,7 @@
         "To bind event handlers"
       ],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "Which of the following is not a lifecycle method in React?",
@@ -65,19 +65,19 @@
         "componentDidUnmount"
       ],
       "correctAnswer": 3,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What does the `render` method return?",
       "options": ["HTML", "JSX", "String", "Array"],
       "correctAnswer": 1,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is the default port where the webpack-dev-server runs?",
       "options": ["3000", "8080", "4200", "5000"],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "In which lifecycle method do you typically make API calls?",
@@ -88,13 +88,13 @@
         "constructor"
       ],
       "correctAnswer": 1,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What tool can you use to transpile JSX?",
       "options": ["Webpack", "Babel", "Gulp", "TypeScript"],
       "correctAnswer": 1,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is the significance of keys in React?",
@@ -105,7 +105,7 @@
         "They are used to manage state"
       ],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "Which of the following is true about React components?",
@@ -116,7 +116,7 @@
         "They must be defined inside another component"
       ],
       "correctAnswer": 2,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What does the `componentDidMount` lifecycle method do?",
@@ -127,7 +127,7 @@
         "Executes before the component is mounted"
       ],
       "correctAnswer": 2,
-      "point": 10
+      "points": 10
     },
     {
       "question": "How do you write an inline style in React?",
@@ -138,7 +138,7 @@
         "Using a template literal"
       ],
       "correctAnswer": 1,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is the use of refs in React?",
@@ -149,7 +149,7 @@
         "To bind event handlers"
       ],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What does the `shouldComponentUpdate` method do?",
@@ -160,7 +160,7 @@
         "It sets the state of the component"
       ],
       "correctAnswer": 2,
-      "point": 10
+      "points": 10
     },
     {
       "question": "How do you pass a value from a child component to a parent component?",
@@ -171,7 +171,7 @@
         "Using context"
       ],
       "correctAnswer": 2,
-      "point": 10
+      "points": 10
     },
     {
       "question": "What is the purpose of the `super` keyword in a React class constructor?",
@@ -182,699 +182,13 @@
         "To set props"
       ],
       "correctAnswer": 0,
-      "point": 10
+      "points": 10
     },
     {
       "question": "Which method in React is used to update the state?",
       "options": ["updateState", "setState", "changeState", "modifyState"],
       "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `constructor` in a React class component?",
-      "options": [
-        "To initialize state",
-        "To bind methods",
-        "To call the parent constructor",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is a higher-order component (HOC) in React?",
-      "options": [
-        "A function that takes a component and returns a new component",
-        "A component that is higher in the component tree",
-        "A component that manages state",
-        "A method to update the component"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How can you optimize performance in a React application?",
-      "options": [
-        "Using shouldComponentUpdate",
-        "Using React.memo",
-        "Using PureComponent",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "Which hook is used to handle state in a functional component?",
-      "options": ["useState", "useEffect", "useContext", "useReducer"],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What does the `useEffect` hook do?",
-      "options": [
-        "Handles component state",
-        "Manages side effects in functional components",
-        "Accesses the context API",
-        "Modifies the virtual DOM"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "What is the default behavior of `useEffect`?",
-      "options": [
-        "It runs after every render",
-        "It runs only once",
-        "It runs before every render",
-        "It runs before unmounting"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you create a context in React?",
-      "options": [
-        "Using React.createContext",
-        "Using React.createElement",
-        "Using React.createContextProvider",
-        "Using React.createContextConsumer"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useReducer` hook?",
-      "options": [
-        "To manage complex state logic",
-        "To manage side effects",
-        "To access the context API",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How can you prevent a component from re-rendering?",
-      "options": [
-        "Using shouldComponentUpdate",
-        "Using React.memo",
-        "Using PureComponent",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useRef` hook?",
-      "options": [
-        "To directly access a DOM element",
-        "To manage state",
-        "To handle side effects",
-        "To create a context"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you perform form validation in React?",
-      "options": [
-        "Using state",
-        "Using refs",
-        "Using controlled components",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the significance of the key attribute in a list?",
-      "options": [
-        "It helps React identify which items have changed, are added, or are removed",
-        "It passes props to list items",
-        "It binds event handlers",
-        "It initializes state"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which hook is used to manage lifecycle methods in functional components?",
-      "options": ["useState", "useEffect", "useContext", "useReducer"],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "How do you handle events in React?",
-      "options": [
-        "Using inline JavaScript",
-        "Using event listeners",
-        "Using event handlers",
-        "Using refs"
-      ],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `ReactDOM`?",
-      "options": [
-        "To interact with the browser's DOM",
-        "To manage state",
-        "To handle events",
-        "To create components"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `componentWillUnmount` lifecycle method?",
-      "options": [
-        "To clean up resources before the component is removed",
-        "To set initial state",
-        "To update the component",
-        "To handle side effects"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you conditionally render a component?",
-      "options": [
-        "Using if statements",
-        "Using ternary operators",
-        "Using logical &&",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useContext` hook?",
-      "options": [
-        "To access the context API",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which of the following is a valid way to update state in a functional component?",
-      "options": [
-        "Using useState",
-        "Using useReducer",
-        "Using useEffect",
-        "Both A and B"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "How do you create a class component in React?",
-      "options": [
-        "Using class keyword",
-        "Using function keyword",
-        "Using const keyword",
-        "Using let keyword"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.Fragment`?",
-      "options": [
-        "To group multiple elements without adding extra nodes to the DOM",
-        "To create a new component",
-        "To manage state",
-        "To handle side effects"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you handle state in a functional component?",
-      "options": [
-        "Using this.state",
-        "Using useState",
-        "Using setState",
-        "Using this.setState"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `componentDidCatch` lifecycle method?",
-      "options": [
-        "To catch errors during rendering",
-        "To handle side effects",
-        "To update state",
-        "To clean up resources"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which hook would you use to update state based on the previous state?",
-      "options": ["useState", "useEffect", "useContext", "useReducer"],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "How do you import React in a file?",
-      "options": [
-        "import React from 'react'",
-        "require('react')",
-        "import { React } from 'react'",
-        "require('react').React"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `ReactDOM.render`?",
-      "options": [
-        "To render a React component into the DOM",
-        "To create a new React component",
-        "To manage state",
-        "To handle side effects"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which hook is used to perform side effects in functional components?",
-      "options": ["useState", "useEffect", "useContext", "useReducer"],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "How do you pass a prop to a child component?",
-      "options": [
-        "Using this.state",
-        "Using this.props",
-        "Using a prop attribute",
-        "Using setState"
-      ],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useCallback` hook?",
-      "options": [
-        "To memoize a function",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you create a functional component in React?",
-      "options": [
-        "Using function keyword",
-        "Using class keyword",
-        "Using const keyword",
-        "Using let keyword"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useMemo` hook?",
-      "options": [
-        "To memoize a value",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which lifecycle method is invoked immediately after a component is added to the DOM?",
-      "options": [
-        "componentWillMount",
-        "componentDidMount",
-        "render",
-        "constructor"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "How do you force a React component to re-render?",
-      "options": [
-        "Using this.forceUpdate",
-        "Using this.setState",
-        "Using this.props",
-        "Using this.state"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `componentWillReceiveProps` lifecycle method?",
-      "options": [
-        "To handle changes in props",
-        "To update state",
-        "To handle side effects",
-        "To clean up resources"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you pass a method to a child component?",
-      "options": [
-        "Using this.state",
-        "Using this.props",
-        "Using a prop attribute",
-        "Using setState"
-      ],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `getDerivedStateFromProps` lifecycle method?",
-      "options": [
-        "To update state based on props",
-        "To handle side effects",
-        "To clean up resources",
-        "To manage state"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which hook is used to reference a DOM element?",
-      "options": ["useState", "useEffect", "useRef", "useContext"],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.PureComponent`?",
-      "options": [
-        "To create a component that only re-renders if props or state changes",
-        "To create a stateless component",
-        "To handle side effects",
-        "To manage state"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you bind a method to a class instance?",
-      "options": [
-        "Using bind in the constructor",
-        "Using an arrow function",
-        "Using a class property",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useLayoutEffect` hook?",
-      "options": [
-        "To perform side effects after the DOM updates",
-        "To manage state",
-        "To create refs",
-        "To memoize values"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which of the following is true about React state?",
-      "options": [
-        "State is mutable",
-        "State is immutable",
-        "State can be changed directly",
-        "State is global"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "How do you update state in a class component?",
-      "options": [
-        "Using this.state",
-        "Using this.setState",
-        "Using this.props",
-        "Using useState"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useImperativeHandle` hook?",
-      "options": [
-        "To customize the instance value exposed by a ref",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which method in React is used to create a ref?",
-      "options": [
-        "createRef",
-        "createElement",
-        "createContext",
-        "createComponent"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you share state between components?",
-      "options": ["Using props", "Using state", "Using context", "Using refs"],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `componentDidCatch` lifecycle method?",
-      "options": [
-        "To handle errors in a component tree",
-        "To manage state",
-        "To handle side effects",
-        "To update props"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.StrictMode`?",
-      "options": [
-        "To identify potential problems in an application",
-        "To handle side effects",
-        "To manage state",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you access state in a functional component?",
-      "options": [
-        "Using this.state",
-        "Using useState",
-        "Using this.props",
-        "Using setState"
-      ],
-      "correctAnswer": 1,
-      "point": 10
-    },
-    {
-      "question": "Which method in React is used to handle events?",
-      "options": ["handleEvent", "handleClick", "onEvent", "eventHandler"],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of the `useDebugValue` hook?",
-      "options": [
-        "To display a label for custom hooks in React DevTools",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which lifecycle method is called before rendering?",
-      "options": [
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillUnmount",
-        "componentDidCatch"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.lazy`?",
-      "options": [
-        "To lazy load components",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you handle errors in React components?",
-      "options": [
-        "Using try-catch",
-        "Using componentDidCatch",
-        "Using error boundaries",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.memo`?",
-      "options": [
-        "To memoize a component",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which of the following is true about React props?",
-      "options": [
-        "Props are immutable",
-        "Props are mutable",
-        "Props can be changed directly",
-        "Props are local to a component"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you handle forms in React?",
-      "options": [
-        "Using controlled components",
-        "Using uncontrolled components",
-        "Using refs",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.Suspense`?",
-      "options": [
-        "To handle loading states for components that are being lazily loaded",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "How do you prevent default behavior in an event handler?",
-      "options": [
-        "Using e.preventDefault()",
-        "Using e.stopPropagation()",
-        "Using e.default()",
-        "Using e.stopImmediatePropagation()"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `useLayoutEffect`?",
-      "options": [
-        "To perform side effects after all DOM mutations",
-        "To manage state",
-        "To handle errors",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `key` prop in React?",
-      "options": [
-        "To give an element a unique identifier",
-        "To manage state",
-        "To handle side effects",
-        "To create refs"
-      ],
-      "correctAnswer": 0,
-      "point": 10
-    },
-    {
-      "question": "Which hook is used to create a custom hook?",
-      "options": ["useState", "useEffect", "useContext", "useCustom"],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "How do you manage global state in a React application?",
-      "options": [
-        "Using context API",
-        "Using Redux",
-        "Using state",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "What is the purpose of the `useTransition` hook?",
-      "options": [
-        "To manage state transitions",
-        "To manage animations",
-        "To manage side effects",
-        "To manage async updates"
-      ],
-      "correctAnswer": 3,
-      "point": 10
-    },
-    {
-      "question": "How do you import a component in React?",
-      "options": [
-        "import Component from 'component'",
-        "import { Component } from 'component'",
-        "import Component from 'path/to/component'",
-        "import { Component } from 'path/to/component'"
-      ],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "Which of the following is a correct way to define a functional component?",
-      "options": [
-        "function MyComponent() {}",
-        "const MyComponent = () => {}",
-        "Both A and B",
-        "None of the above"
-      ],
-      "correctAnswer": 2,
-      "point": 10
-    },
-    {
-      "question": "What is the use of `React.PureComponent`?",
-      "options": [
-        "To create a component that only re-renders if props or state changes",
-        "To create a stateless component",
-        "To handle side effects",
-        "To manage state"
-      ],
-      "correctAnswer": 0,
-      "point": 10
+      "points": 10
     }
   ]
 }
